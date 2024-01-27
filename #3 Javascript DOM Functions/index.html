@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main">
+        Welcome to the India!
+    </div>
+    <h2>0</h2>
+    <div class="main">
+        welcome in </div>
+
+    <h2>1</h2>
+    <div class="main">
+        Welcome to Shahpur..
+    </div>
+
+
+</body>
+<script type="text/javascript">
+    var x = document.getElementById("main").innerHTML;//if we apply ineerHTML then only content of div display;
+    console.log(x);
+
+    var x1 = document.getElementsByClassName("main")[0];
+    alert(x1);
+    //  document.getElementsByClassName("main")[0].innerHTML = " Welcome to Shahpur..";
+
+    //  document.getElementsByClassName("main")[1].innerHTML = "welcome in ";       this statement reverse the div.class conditions 
+
+
+    document.getElementById("main").innerHTML = "<h1> Welcome to THE India in 2024 with 4th largest Economy in the world.</h1>";//here it replace the previous div content .
+
+    // we also do it by using class..
+    // <div class ="main ">
+    //     Welcome to the India!
+    // </div>
+    // in var x =  document.getElementsBYClassName("main").innerHTML
+</script>
+
+</html>
