@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Each Loop</title>
+    <!-- ** A forEach loop is used to get data from JS array or Object.
+    ** The method calls function for each element in array in order. -->
+    <!-- syntax: function mycars(items,index,array){
+        body of function
+    } -->
+</head>
+<body>
+    
+</body>
+<script>
+var carp = ["pen1", "pen2", "pen3" , "pen4" ,"pen5"];
+carp.forEach(pen);                            
+function pen(item,index){
+    document.write(index + "  "+ item + "<br/>");
+}
+
+// to edit in array elements or add any thing we use: array perimeter.
+
+
+var cars = ["car1", "car2", "car3" , "car4" ,"car5"];
+ cars.forEach(car);                            
+ function car(item,index,array){
+     array[index] = item+" top";
+ }
+
+ 
+cars.forEach(after);                            
+ function after(item,index){
+     document.write(index + "  "+ item + "<br/>");
+ }
+</script>
+</html>

@@ -1,0 +1,38 @@
+<!-- 1. valueof() : To print the data of array.
+2. isArray() : Check if the variable is  an array or not?
+3. concat()  : Join several array into one.
+4. indexof() : Return the primitive value of the specified object.
+5. join() : Combine elements of array into a single string and return the string. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Functions</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var arr =["Mango","Banana", "Apple", "Orange"];
+    // var flag = Array.isArray(arr);
+    // var flag = arr.valueOf(); 
+    // var flag = arr.join(" || ");
+    // document.write("<h1>"+flag+"</h1>");
+
+    // for concatination..
+    var fruits =["Mango","Banana", "Apple", "Orange"];
+    var veg = ["potato","onion", "carrot", "brinjal"];
+    var shop = fruits.concat(veg);
+    document.write("<h1>"+shop+"</h1>");
+
+    // for finding the index of element.
+
+    var fruits =["Mango","Banana", "Apple", "Orange"];
+    var veg = ["potato","onion", "carrot", "brinjal"];
+    var shop = fruits.concat(veg);
+     var index = shop.indexOf("Orange"); // If element is not found it generates -1;
+    document.write("<h1>"+index+"</h1>");
+</script>
+</html>
